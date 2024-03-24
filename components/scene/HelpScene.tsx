@@ -1,9 +1,9 @@
 import { MouseEventHandler } from "react";
 import Button from "../ui/Button";
-import img_help1 from "@/assets/image/help-1.jpg"
-import img_help2 from "@/assets/image/help-2.jpg"
-import img_help3 from "@/assets/image/help-3.jpg"
-import img_help4 from "@/assets/image/help-4.jpg"
+import img_help1 from "@/public/assets/image/help-1.jpg"
+import img_help2 from "@/public/assets/image/help-2.jpg"
+import img_help3 from "@/public/assets/image/help-3.jpg"
+import img_help4 from "@/public/assets/image/help-4.jpg"
 
 export default function HelpScene({
   onClickReturn,

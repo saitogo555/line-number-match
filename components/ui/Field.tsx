@@ -5,8 +5,8 @@ import SelectedCell from "./SelectedCell";
 import { RemoveEvent, type Coordinate } from "@/types";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { deg2rad } from "@/utils";
-import audio_select from "@/assets/audio/select.mp3"
-import audio_remove from "@/assets/audio/remove.mp3"
+import audio_select from "@/public/assets/audio/select.mp3"
+import audio_remove from "@/public/assets/audio/remove.mp3"
 import { useAudio } from "@/hooks/useAudio";
 import HintCell from "./HintCell";
 
