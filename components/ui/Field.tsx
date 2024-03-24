@@ -15,8 +15,8 @@ export default function Field({
   field: FieldHook,
   onRemove?: (e: RemoveEvent) => void
 }) {
-  const selectAudio = useAudio("/assets/audio/select.mp3")
-  const removeAudio = useAudio("/assets/audio/remove.mp3")
+  const selectAudio = useAudio("./assets/audio/select.mp3")
+  const removeAudio = useAudio("./assets/audio/remove.mp3")
   const [selectedCoords, setSelectedCoords] = useState<Coordinate[]>([])
   const [selectableCoords, setSelectableCoords] = useState<Coordinate[]>([])
   const [hintCoords, setHintCoords] = useState<Coordinate[]>([])

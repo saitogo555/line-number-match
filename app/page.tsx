@@ -13,8 +13,8 @@ import GameScene from "@/components/scene/GameScene"
 
 export default function Index() {
   const field = useField()
-  const bgmAudio = useAudio("/assets/audio/bgm.mp3", { volume: 0.5, loop: true })
-  const gameoverAudio = useAudio("/assets/audio/gameover.mp3")
+  const bgmAudio = useAudio("./assets/audio/bgm.mp3", { volume: 0.5, loop: true })
+  const gameoverAudio = useAudio("./assets/audio/gameover.mp3")
   const [isStarted, setIsStarted] = useState<boolean>(false)
   const [isOpenHelp, setIsOpenHelp] = useState<boolean>(false)
   const [isPaused, setIsPaused] = useState<boolean>(false)
