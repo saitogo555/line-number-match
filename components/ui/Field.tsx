@@ -5,8 +5,6 @@ import SelectedCell from "./SelectedCell";
 import { RemoveEvent, type Coordinate } from "@/types";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { deg2rad } from "@/utils";
-import audio_select from "@/public/assets/audio/select.mp3"
-import audio_remove from "@/public/assets/audio/remove.mp3"
 import { useAudio } from "@/hooks/useAudio";
 import HintCell from "./HintCell";
 
@@ -17,8 +15,8 @@ export default function Field({
   field: FieldHook,
   onRemove?: (e: RemoveEvent) => void
 }) {
-  const selectAudio = useAudio(audio_select)
-  const removeAudio = useAudio(audio_remove)
+  const selectAudio = useAudio("/assets/audio/select.mp3")
+  const removeAudio = useAudio("/assets/audio/remove.mp3")
   const [selectedCoords, setSelectedCoords] = useState<Coordinate[]>([])
   const [selectableCoords, setSelectableCoords] = useState<Coordinate[]>([])
   const [hintCoords, setHintCoords] = useState<Coordinate[]>([])
