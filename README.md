@@ -1,5 +1,28 @@
 # LINE NUMBER MATCH
 
-A game of eliminating numbers by pairing the same or those adding up to 10.
+同じ数字または合計10になるよう数字を直線で繋げて消すゲーム。
 
-demo page: [https://saitogo555.github.io/line-number-match/](https://saitogo555.github.io/line-number-match/)
+5ターン経過するか繋げれる数字が無くなったらラインが追加されます。
+
+一番上にラインがある状態でラインが追加されるとゲームオーバー。
+
+<div style="display: flex;">
+  <img src="https://raw.githubusercontent.com/saitogo555/line-number-match/images/game.jpg" style="width: 50%;" />
+  <img src="https://raw.githubusercontent.com/saitogo555/line-number-match/images/help.jpg" style="width: 50%;" />
+</div>
+
+## 主要ライブラリ
+
+- React@18
+
+- Nextjs@14.1.3
+
+- tailwindcss@3.3.0
+
+## 対応デバイス
+
+- PC
+
+## デモページ
+
+URL: [https://saitogo555.github.io/line-number-match/](https://saitogo555.github.io/line-number-match/)
