@@ -6,9 +6,9 @@
 
 一番上にラインがある状態でラインが追加されるとゲームオーバー。
 
-<img src="https://raw.githubusercontent.com/saitogo555/line-number-match/images/game.jpg" style="width: 100%;" />
-
-<img src="https://raw.githubusercontent.com/saitogo555/line-number-match/images/help.jpg" style="width: 100%;" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/saitogo555/line-number-match/images/game.jpg" style="width: 49%;" /> <img src="https://raw.githubusercontent.com/saitogo555/line-number-match/images/help.jpg" style="width: 49%;" />
+</div>
 
 ## 主要ライブラリ
 
